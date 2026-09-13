@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hex-pm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hex.pm MCP — package registry for the Elixir & Erlang ecosystems.",
   "type": "module",
   "main": "src/index.ts",
