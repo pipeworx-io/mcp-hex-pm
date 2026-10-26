@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/hex-pm",
   "title": "Hex Pm",
-  "description": "Hex.pm MCP — package registry for the Elixir & Erlang ecosystems.",
-  "version": "0.1.3",
+  "description": "Hex.pm MCP — package registry for the Elixir & Erlang ecosystems. Keyless. Hex.pm requires a…",
+  "version": "0.1.4",
   "websiteUrl": "https://pipeworx.io/packs/hex-pm",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-hex-pm",
