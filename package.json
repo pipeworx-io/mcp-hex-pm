@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-hex-pm",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Hex.pm MCP — package registry for the Elixir & Erlang ecosystems. Keyless. Hex.pm requires a User-Agent header on every request.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-hex-pm": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "hex-pm"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-hex-pm.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/hex-pm",
   "pipeworx": {
-    "sourceHash": "v1-f34c368c3a86130f13f5dc4cb362c14976ae4f29ab79e02c38667d07a061e4a3",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "hex-pm",
+    "gatewaySlug": "hex_pm",
+    "sourceHash": "v1-981fb1895e127089b20badd36617f1d89aad07bc461d4b9b9b0ac54317984b1f",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
