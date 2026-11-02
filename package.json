@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hex-pm",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Hex.pm MCP — package registry for the Elixir & Erlang ecosystems. Keyless. Hex.pm requires a User-Agent header on every request.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "hex-pm",
     "gatewaySlug": "hex_pm",
-    "sourceHash": "v1-981fb1895e127089b20badd36617f1d89aad07bc461d4b9b9b0ac54317984b1f",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-e1e46ca57d5f2d1884e5b4b97ef1a2d5763e1ccf1f50d12c5e12604ac3023390",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
